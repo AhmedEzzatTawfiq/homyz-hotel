@@ -1,0 +1,34 @@
+.g-wrapper {
+    margin-bottom: 3rem;
+}
+
+.g {
+    gap: 1rem;
+    background: var(--dark-blue);
+    padding: 2rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.g .primaryText {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.g .secondaryText {
+    color: #ffffffb8;
+    font-size: 0.9rem;
+}
+
+.g .button {
+    width: 6rem;
+    align-self: center;
+    background-color: #5a73d7;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
+    border: 2px solid white;
+    margin-top: 1rem;
+}

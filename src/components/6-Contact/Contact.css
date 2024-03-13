@@ -1,0 +1,102 @@
+.c-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contact>div {
+    flex: 1;
+}
+
+.c-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.c-right {
+    width: 100%;
+}
+
+.contact-modes {
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.contact-modes .row {
+    gap: 1.5rem;
+}
+
+.mode {
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+    padding: 0.8rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 2px;
+    gap: 0.8rem;
+    transition: all 300ms ease-in;
+}
+
+.call {
+    display: flex;
+    justify-content: start;
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.icon {
+    border-radius: 5px;
+    background-color: #eeeeff99;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.mode .button {
+    background-color: #eeeeff;
+    color: var(--dark-blue);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.contact .img-container {
+    border: 8px solid #7c86b0;
+}
+
+.mode .button:hover {
+    background-color: var(--dark-blue);
+    color: white;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+    .contact {
+        flex-direction: column;
+    }
+    .c-right {
+        display: flex;
+        justify-content: center;
+    }
+    .row {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1250px) {
+    .contact {
+        gap: 10rem;
+    }
+}
