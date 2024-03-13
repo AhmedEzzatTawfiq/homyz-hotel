@@ -1,0 +1,1 @@
+.footer{display:flex;justify-content:space-between;margin-bottom:2rem}.f-right{gap:1rem}.f-left{gap:.5rem}.f-menu{display:flex;row-gap:1rem;justify-content:center;flex-wrap:wrap}.f-menu>span{padding:.2rem}@media (max-width: 370px){.f-menu{row-gap:1rem}}

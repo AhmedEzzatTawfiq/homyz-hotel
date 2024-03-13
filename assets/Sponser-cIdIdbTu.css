@@ -1,0 +1,1 @@
+.sponser{display:flex;justify-content:space-between;max-width:1000px;margin-top:1rem}.sponser>img{width:8rem;padding:1rem}@media (max-width: 1100px){.sponser{gap:0;padding:0}.sponser{max-width:1020px}}@media (max-width: 370px){.sponser>img{width:7rem;padding:1rem}}
